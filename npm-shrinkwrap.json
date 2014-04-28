@@ -1,0 +1,94 @@
+{
+  "name": "memdb",
+  "version": "0.1.0",
+  "dependencies": {
+    "levelup": {
+      "version": "0.18.3",
+      "from": "levelup@0.18.3",
+      "resolved": "http://registry.npmjs.org/levelup/-/levelup-0.18.3.tgz",
+      "dependencies": {
+        "errno": {
+          "version": "0.1.1",
+          "from": "errno@~0.1.0"
+        },
+        "concat-stream": {
+          "version": "0.1.1",
+          "from": "concat-stream@~0.1.1"
+        },
+        "readable-stream": {
+          "version": "1.0.27-1",
+          "from": "readable-stream@~1.0.17",
+          "dependencies": {
+            "core-util-is": {
+              "version": "1.0.1",
+              "from": "core-util-is@~1.0.0"
+            },
+            "isarray": {
+              "version": "0.0.1",
+              "from": "isarray@0.0.1"
+            },
+            "string_decoder": {
+              "version": "0.10.25-1",
+              "from": "string_decoder@~0.10.x"
+            },
+            "inherits": {
+              "version": "2.0.1",
+              "from": "inherits@~2.0.1"
+            }
+          }
+        },
+        "xtend": {
+          "version": "2.1.2",
+          "from": "xtend@~2.1.1",
+          "dependencies": {
+            "object-keys": {
+              "version": "0.4.0",
+              "from": "object-keys@~0.4.0"
+            }
+          }
+        },
+        "prr": {
+          "version": "0.0.0",
+          "from": "prr@~0.0.0"
+        },
+        "semver": {
+          "version": "2.2.1",
+          "from": "semver@~2.2.1"
+        },
+        "deferred-leveldown": {
+          "version": "0.2.0",
+          "from": "deferred-leveldown@~0.2.0",
+          "dependencies": {
+            "abstract-leveldown": {
+              "version": "0.12.2",
+              "from": "abstract-leveldown@~0.12.1"
+            }
+          }
+        }
+      }
+    },
+    "memdown": {
+      "version": "0.8.0",
+      "from": "memdown@0.8.0",
+      "resolved": "http://registry.npmjs.org/memdown/-/memdown-0.8.0.tgz",
+      "dependencies": {
+        "abstract-leveldown": {
+          "version": "0.12.2",
+          "from": "abstract-leveldown@~0.12.0",
+          "dependencies": {
+            "xtend": {
+              "version": "2.1.2",
+              "from": "xtend@~2.1.1",
+              "dependencies": {
+                "object-keys": {
+                  "version": "0.4.0",
+                  "from": "object-keys@~0.4.0"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
