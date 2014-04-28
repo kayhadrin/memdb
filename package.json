@@ -1,7 +1,7 @@
 {
   "name": "memdb",
   "description": "LevelUp + MemDown",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/memdb.git"
@@ -9,8 +9,8 @@
   "homepage": "https://github.com/juliangruber/memdb",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js",
-	  "browserify": "browserify -r ./index.js:memdb -o memdb.js"
+    "browserify": "browserify -r ./index.js:memdb -o memdb.js",
+    "test": "make test"
   },
   "dependencies": {
     "memdown": "~0.8.0",
