@@ -36,6 +36,16 @@ npm install memdb
 Then bundle for the browser with
 [browserify](https://github.com/substack/node-browserify).
 
+Here's the command-line command to use to bundle this with Browserify:
+
+```shell
+# either through npm
+npm run-script browserify
+
+# or manually
+browserify -r ./index.js:memdb -o memdb.js
+```
+
 ## License
 
 (MIT)
