@@ -9,7 +9,8 @@
   "homepage": "https://github.com/juliangruber/memdb",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+	  "browserify": "browserify -r ./index.js:memdb -o memdb.js"
   },
   "dependencies": {
     "memdown": "~0.8.0",
